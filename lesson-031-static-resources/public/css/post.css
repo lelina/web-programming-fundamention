@@ -1,0 +1,15 @@
+body {
+    width: 600px;
+    margin: auto;
+    padding-top: 20px;
+    color: #EEE; /* not absolute white */
+    background-color: #222; /*not absolute black*/
+}
+
+h1 {
+    color: #DDD; /* dark */
+}
+
+h2 {
+    color: #AAA; /* lighter than h1 a litle bit */
+}
