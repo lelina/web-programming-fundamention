@@ -6,6 +6,7 @@ let app = express()
 
 app.set('port', 8000)
 app.set('view engine', 'ejs')
+app.use(express.static(__dirname + '/public'));
 
 app.get('/', (req, res) => {
   let template = 'main'
